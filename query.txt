@@ -1,0 +1,1 @@
+https://localhost:7101/odata/Books?$filter=Price le 50 and startswith(Author, 'R') and Press/Category eq 'Book'&orderby=Price asc&expand=press(select=Name,Category)

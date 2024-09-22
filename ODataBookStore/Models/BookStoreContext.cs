@@ -17,7 +17,7 @@ namespace ODataBookStore.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Book>().OwnsOne(c => c.Localtion);
+            modelBuilder.Entity<Book>().OwnsOne(c => c.Location);
         }
     }
 }
